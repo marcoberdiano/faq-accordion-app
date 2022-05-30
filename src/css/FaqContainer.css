@@ -1,0 +1,22 @@
+.faq-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 2rem 5rem;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    /* some code */
+
+    .faq-container {
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+        gap: 1rem;
+    }
+  }

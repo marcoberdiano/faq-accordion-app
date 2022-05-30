@@ -1,0 +1,22 @@
+.FaqContainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+}
+
+.woman-img {
+    width: 400px;
+    position: relative;
+    left: -110px;
+}
+
+@media only screen and (max-width: 900px) {
+    /* some code */
+    .woman-img {
+        width: 250px;
+        position: relative;
+        top: -145px;
+        left: 0;
+     }    
+  }

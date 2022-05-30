@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* Reset properties */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+  /*primary color*/
+  --VeryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+  --SoftRed: hsl(14, 88%, 65%);
+
+  /*Background gradient*/
+  --SofViolet: hsl(273, 75%, 66%);
+  --SoftBlue: hsl(240, 73%, 65%);
+
+  /*Text*/
+  --VeryDarkGrayishBlue: hsl(237, 12%, 33%);
+  --DarkGrayishBlue: hsl(240, 6%, 50%);
+
+  /*Dividers*/
+  --LightGrayishBlue: hsl(240, 5%, 91%);
+
+}
+
+body {
+  font-family: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(var(--SofViolet), var(--SoftBlue));
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 900px) {
+  /* some code */
+  body {
+    margin: 130px 5px;
+  }    
+}
+
