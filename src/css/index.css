@@ -40,13 +40,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin: 50px 5px;
 }
 
 @media only screen and (max-width: 900px) {
   /* some code */
   body {
-    margin: 180px 15px;
+    margin: 180px 5px;
   }    
 }
 
