@@ -5,18 +5,46 @@
     width: 315px;
 }
 
-.woman-img {
-    width: 400px;
+.woman-img-desk {
+    width: 500px;
     position: relative;
     left: -110px;
 }
 
+.woman-img-desk {
+    display: block;
+}
+
+.woman-img-mobile {
+    display: none;
+}
+
+.img-box {
+    position: fixed;
+    top: 300px;
+    left: 130px;
+}
+
 @media only screen and (max-width: 900px) {
     /* some code */
-    .woman-img {
-        width: 250px;
+
+    .woman-img-mobile {
+        display: block;
+    }
+
+    .woman-img-desk {
+        display: none;
+    }
+
+    .img-box {
+        display: none;
+    }
+
+    .woman-img-mobile {
+        width: 300px;
         position: relative;
-        top: -145px;
         left: 0;
-     }    
+        top: -165px;
+    }
+    
   }

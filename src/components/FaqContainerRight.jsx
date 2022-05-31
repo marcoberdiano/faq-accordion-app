@@ -5,9 +5,11 @@ export const FaqContainerRight = () => {
     return ( 
           <div className='FaqContainerRight'>
               <h1 className='title'>FAQ</h1>
-              {questions.map((item)=>
-               <Question key={item.id} question={item.question} answer={item.answer} />
-              )}
+              <div>
+                {questions.map((item)=>
+                <Question key={item.id} question={item.question} answer={item.answer} />
+                )}
+              </div>
           </div>
      );
 }

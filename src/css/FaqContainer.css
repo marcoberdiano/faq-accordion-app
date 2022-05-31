@@ -6,17 +6,24 @@
     border-radius: 20px;
     padding: 2rem 5rem;
     gap: 1rem;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-position: -590px -258px;
+    /*background-size: 500px;*/
+    background-repeat: no-repeat;
+    height: 600px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 900px) {
     /* some code */
 
     .faq-container {
-        width: 375px;
+        width: 400px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 400px;
-        gap: 1rem;
+        background-image: none;
+        overflow:visible;
+        height: auto;
     }
   }
